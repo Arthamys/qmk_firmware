@@ -14,6 +14,69 @@ enum custom_keycodes {
   RGB_SLD
 };
 
+/*
+ * This is the default keymap for a blank layout
+[<NAME>] = LAYOUT_ergodox(
+         //   ,--------------------------------------------------.
+         //   |      |      |      |      |      |      |        |
+         //   |------+------+------+------+------+------+--------|
+         //   |      |      |      |      |      |      |        |
+         //   |      |------+------+------+------+------+--------|
+         //   |------|      |      |      |      |      |        |
+         //   |      |------+------+------+------+------+--------|
+         //   |      |      |      |      |      |      |        |
+         //   `-------------+------+------+------+------+--------'
+         //     |      |      |      |      |      |
+         //     `----------------------------------'
+         //                                          ,-------------.
+         //                                          |      |      |
+         //                                   ,------|------|------|
+         //                                   |      |      |      |
+         //                                   |      |      |------|
+         //                                   |      |      |      |
+         //                                   `--------------------'
+         //
+         //Left Hand
+        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+                                        KC_TRNS,KC_TRNS,
+                                                KC_TRNS,
+                                KC_TRNS,KC_TRNS,KC_TRNS,
+
+        //     ,--------------------------------------------------.
+        //     |      |      |      |      |      |      |        |
+        //     |------+------+------+------+------+------+--------|
+        //     |      |      |      |      |      |      |        |
+        //     |      |------+------+------+------+------+--------|
+        //     |------|      |      |      |      |      |        |
+        //     |      |------+------+------+------+------+--------|
+        //     |      |      |      |      |      |      |        |
+        //     `-------------+------+------+------+------+--------'
+        //                   |      |      |      |      |      |
+        //                   `----------------------------------'
+        //   ,-------------.
+        //   |      |      |
+        //   |------+--------+------.
+        //   |      |        |      |
+        //   |------|        |      |
+        //   |      |        |      |
+        //   `----------------------'
+        //
+        // Right Hand
+        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+                KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+                        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+        KC_TRNS,KC_TRNS,
+        KC_TRNS,
+        KC_TRNS,KC_TRNS,KC_TRNS
+        ),
+*/
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Keymap 0: Basic layer
  *
