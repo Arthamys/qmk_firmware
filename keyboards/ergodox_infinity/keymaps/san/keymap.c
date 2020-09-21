@@ -126,7 +126,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         //  |      |        |      |
         //  |------|  Back- |Enter |
         //  |  L2  |  Space |      |
-        //  `----------------------'                                      // right hand
+        //  `----------------------'
+        // right hand
         KC_NO,    KC_NO,   KC_NO,   KC_NO,   KC_NO,  KC_NO,   KC_MINS,
         KC_NO,    KC_Y,    KC_U,    KC_I,    KC_O,   KC_P,    KC_BSLS,
                   KC_H,    KC_J,    KC_K,    KC_L,   KC_SCLN, KC_QUOT,
@@ -162,7 +163,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        VRSN,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        KC_TRNS, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_TRNS,
        KC_TRNS, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,
-       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_LBRC, KC_RBRC, KC_TRNS
+       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_LBRC, KC_RBRC, KC_TRNS,
        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
                                                     KC_TRNS, KC_TRNS,
                                                              KC_TRNS,
