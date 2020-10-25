@@ -183,7 +183,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        //   ,-------------.
        //   |LEDtog|      |
        //   |------+--------+------.
-       //   |      |  LED-  | LED+ |
+       //   | LED- | DELETE | LED+ |
        //   |------|        |      |
        //   |      |        |      |
        //   `----------------------'
@@ -195,8 +195,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_TRNS, KC_GRV,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
                          KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        RGB_TOG, RGB_SLD,
-       KC_TRNS,
-       KC_TRNS, RGB_HUD, RGB_HUI
+       RGB_HUD,
+       KC_TRNS, KC_DEL, RGB_HUI
 ),
 
 // Keymap 2: Media and mouse keys
